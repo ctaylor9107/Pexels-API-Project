@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project to practice interacting with API's in other apps and integrating them into my apps.
 
-Things you may want to cover:
+I will be using the Pexels web app to practice this and utilizing one of the Pexels API gems to integrate.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The end product should show my chosen collection based on the ID I put in.
