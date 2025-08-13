@@ -1,0 +1,16 @@
+<h1>Hello!</h1>
+
+<%= form_with method: :get, local: true do |form| %>
+  <%= form.label :id, "Collection ID: " %>
+  <%= form.text_field :id %>
+  <%= form.submit "Search" %>
+<% end %>
+
+<br>
+<br>
+
+<% if @collection_media.present? %>
+  <% @collection_media.each do |media| %>
+    <img src=<%= media.src["portrait"] %>>
+  <% end %>
+<% end %>
